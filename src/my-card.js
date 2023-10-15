@@ -137,12 +137,7 @@ class MyCard extends LitElement {
     <button id="colorBtn" @click="${this.randomColorGenerator.bind(this)}">Change Color</button>
     <button id="titleBtn" @click="${this.changeTitle.bind(this)}">Change Title</button>
     <button id="deleteBtn" @click="${this.deleteCard.bind(this)}">Delete Card</button>
-    <!--
-    <button id="btn" @click="${this.cloneCard}">Clone</button>
-    <button id="colorBtn" @click="${this.randomColorGenerator}">Change Color</button>
-    <button id="titleBtn" @click="${this.changeTitle}">Change Title</button>
-    <button id="deleteBtn" @click="${this.deleteCard}">Delete Card</button>
-  -->
+    
     <div class="cards">
       <div class="card-content">
         <div class="card-content">
